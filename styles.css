@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+  }
+  header, section, footer, nav, article, figure, figcaption {
+    display: block;
+    color: #000000;
+  }
+  body {
+    color: hsla(160, 88%, 13%, 0.878);
+   
+    background-image: url("assests/gems1.jpg");
+    font-family: cursive;
+  
+    margin: 0px;
+  }
+  h2{
+    align-content: center;
+  }
+  div.container {
+    width: 950px;
+    margin: 5px auto;
+    background-color: #fff5e6;
+  }
+  .content {
+    /* box-sizing: border-box; */
+    line-height: 1.4em;
+    padding: 10px;
+  }
+  header, nav, footer {
+    background-color: rgb(237, 162, 192);
+    color: #ffffff;
+    /* height: 160px; */
+    /* background-image: url("images/header.jpg"); */
+  }
+   h2 {
+              text-indent: 249px;
+              width: 540px;
+              height: 30px;
+              margin: 0px;
+          } 
+  nav ul {
+    margin: 0;
+    padding: 5px;
+  }
+  nav li {
+    display: inline;
+    margin-right: 40px;
+    text-transform: uppercase;
+  }
+  nav li a {
+    color: #ffffff;
+  }
+  nav li a:hover, nav li a.current {
+    color: #000000;
+  }
+  a {
+    color: #de6581;
+    text-decoration: none;
+  }
+  p{
+    color-scheme: black;
+  }
+  h1, h2, h3 ,h4{
+   
+    margin: 10px;
+    text-transform: uppercase;
+    color: rgb(212, 11, 92);
+  }
+  .img-centre {
+    
+    display: block;
+    margin: 5px auto;
+    border: 2px solid black;
+    padding: 2px;
+
+    
+  }
+  body,footer{
+    height: 1000px;
+    background-color: white; /* For browsers that do not support gradients */
+    background-image: linear-gradient(pink, skyblue);
+  }
+  
+  footer {
+    background-image: linear-gradient(pink, skyblue);
+    color: black;
+    align-content: center;
+    color-scheme: black;
+    text-align: left;
+  }
+  #multiplebackground {
+    background-image: url("C:/Users/nikit/OneDrive/gems1.jpeg"), url("C:/Users/nikit/OneDrive/gems2.jpeg");
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+  }
+  .col-md-6{
+    text-align: left;
+  }
